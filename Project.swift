@@ -18,7 +18,9 @@ let project = Project(
             ]),
             sources: ["HelloTuist/Sources/**"],
             resources: ["HelloTuist/Resources/**"],
-            dependencies: [],
+            dependencies: [
+                .external(name: "Kingfisher")
+            ],
             settings: Target.settings
         ),
         .target(

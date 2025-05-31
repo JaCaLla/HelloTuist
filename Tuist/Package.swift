@@ -13,10 +13,10 @@ import PackageDescription
 #endif
 
 let package = Package(
-    name: "HelloTuist",
+    name: "tuistHello",
     dependencies: [
         // Add your own dependencies here:
-        // .package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
+        .package(url: "https://github.com/onevcat/Kingfisher", .upToNextMajor(from: "8.3.2")),
         // You can read more about dependencies here: https://docs.tuist.io/documentation/tuist/dependencies
     ]
 )
